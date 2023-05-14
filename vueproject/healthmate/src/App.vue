@@ -1,25 +1,19 @@
 <template>
   <h1>Find Your Health Mate</h1>
   <img alt="Vue logo" src="./assets/HealthLogo.png">
-      <div id="login">
-        <input type="text" placeholder="아이디" autofocus>
-      </div>
-      <div>
-        <input type="text" placeholder="비밀번호" autofocus>
-      </div>
-      <div>
-        <button>로그인</button>
-      </div>
+
+  <Login_form></Login_form>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import Login_form from './components/Login_form.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
-  }
+    Login_form
+}
 }
 </script>
 
